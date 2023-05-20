@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'Poppins';   
+}
+.option-label{
+    margin: 0;
+    margin-right: 0.5em;
+}
+button{
+    font-family: 'Poppins';  
+    padding: 0.6em;
+    font-weight: 500;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.wrapper {
+    max-height: 100vh;
+    height : 100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #444;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #ededed;
+    padding: 10px;
+}
+.header {
+    background-color: #ededed;
+    padding: 10px;
+    color: #000;  
+}
+#clearButton{
+    margin-right: 0.5em;
+}
+#directionButton{
+    margin-right: 1em;
+    width:150px;
+}
+
+.middle-bar {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar {
+    padding: 5px;  
+    background-color: #f0f0f0;
+}
+.sideBarItem{
+    width: 82px;
+    height: 82px;
+	margin:5px;
+    background-color: transparent;
+    border: solid;
+    border-width: 2px;
+    border-color: transparent;
+    box-sizing: border-box;
+}
+
+.sideBarItem img{
+	height: 100%;
+	width: 100%;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#content{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+    background: #dbdbdb;
+}
+.colourPalette{
+	display:flex;
+	flex-flow: wrap;
+        padding : 1em;
+}
+
+.colourSwatches{
+	box-sizing: border-box;
+	width: 30px;
+	height: 30px;
+	margin: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.options{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+	padding: 15px;
+    background: #c4c4c4;
+    align-items: center
+}
+
+.rectangleButton{
+    width: 40px;
+    height: 40px;
+    background: url("assets/square.png");
+    background-size: cover;
+    border: none;
+    margin-right: 1em;
+    background-color: white;
+}
+.ellipseButton{
+    width: 40px;
+    height: 40px;
+    background: url("assets/circle.png");
+    background-size: cover;
+    border: none;
+    margin-right: 1em;
+    background-color: white;
+}
+.triangleButton{
+    width: 40px;
+    height: 40px;
+    background: url("assets/triangle.png");
+    background-size: cover;
+    border: none;
+    margin-right: 1em;
+    background-color: white;   
+}
+.selectedOption{
+    border: 2px solid black;
+    transform: scale(1.2);
+}
+
+.applyButton{
+    margin-left: 1em;
+}
+
+
+
+
+
+
